@@ -14,18 +14,18 @@
         <h1>Calculadora IMC</h1>
         <div class="input">
             <label>Nome:</label>
-            <input type="text">
+            <input id="nome" type="text">
         </div>
         <div class="input">
             <label>Altura:</label>
-            <input placeholder="em metros" type="text">
+            <input id="altura" placeholder="em metros" type="number">
         </div>
         <div class="input">
             <label>Peso:</label>
-            <input type="text">
+            <input id="peso" type="number">
         </div>
-        <button>Calcular</button>
-        <div class="resposta"></div>
+        <button onclick="calculando()" id="calcular">Calcular</button>
+        <div id="resposta"></div>
     </div>
 </body>
 
